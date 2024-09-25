@@ -1,6 +1,6 @@
 {
   "gitSyncId": "66f3f349d661d467eda777e0_70ce66f0-5780-41af-9a78-7e567c55eb31",
-  "id": "Page1_Select",
+  "id": "First page_Select",
   "pluginId": "oracle-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -27,7 +27,7 @@
     "executeOnLoad": true,
     "fullyQualifiedName": "Select",
     "name": "Select",
-    "pageId": "Page1",
+    "pageId": "First page",
     "userSetOnLoad": false
   }
 }

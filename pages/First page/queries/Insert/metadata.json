@@ -1,6 +1,6 @@
 {
   "gitSyncId": "66f3f349d661d467eda777e0_e6111926-7a67-48a6-8b3d-f7252a69e750",
-  "id": "Page1_Insert",
+  "id": "First page_Insert",
   "pluginId": "oracle-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -31,7 +31,7 @@
     "executeOnLoad": false,
     "fullyQualifiedName": "Insert",
     "name": "Insert",
-    "pageId": "Page1",
+    "pageId": "First page",
     "userSetOnLoad": false
   }
 }

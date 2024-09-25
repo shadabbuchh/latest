@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "66f3f349d661d467eda777e0_fd1f78d9-db7d-42d6-b780-13c2bb3dc318",
-  "id": "Page1_CreateNewFile",
+  "gitSyncId": "66f3f349d661d467eda777e0_21fdabe4-5248-481d-b932-dab1d25a037f",
+  "id": "First page_ListFiles",
   "pluginId": "amazons3-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -8,13 +8,13 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": "{{FilePicker1.files[0]}}"
+          "data": ""
         },
         "bucket": {
           "data": "assets-test.appsmith.com"
         },
         "command": {
-          "data": "UPLOAD_FILE_FROM_BODY"
+          "data": "LIST"
         },
         "create": {
           "dataType": {
@@ -34,17 +34,30 @@
           "signedUrl": {
             "data": "NO"
           },
+          "sortBy": {
+            "data": [
+              {
+                "column": "",
+                "order": "Ascending"
+              }
+            ]
+          },
           "unSignedUrl": {
             "data": "YES"
           },
           "where": {
             "data": {
+              "children": [
+                {
+                  "condition": "EQ"
+                }
+              ],
               "condition": "AND"
             }
           }
         },
         "path": {
-          "data": "MyFile1.txt"
+          "data": ""
         },
         "read": {
           "dataType": {
@@ -65,10 +78,10 @@
       "pluginId": "amazons3-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
-    "fullyQualifiedName": "CreateNewFile",
-    "name": "CreateNewFile",
-    "pageId": "Page1",
+    "executeOnLoad": true,
+    "fullyQualifiedName": "ListFiles",
+    "name": "ListFiles",
+    "pageId": "First page",
     "userSetOnLoad": false
   }
 }
